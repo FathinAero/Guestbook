@@ -1,0 +1,10 @@
+/* EntryList.css */
+
+.entry-content {
+    flex: 1;
+}
+
+.entry-actions {
+    display: flex;
+    gap: 0.5rem;
+}

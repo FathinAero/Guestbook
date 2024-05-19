@@ -1,0 +1,84 @@
+/* Global Styling */
+
+/* Font dan Teks */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Warna */
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87); /* Warna teks utama */
+}
+
+/* Latar Belakang */
+body {
+  background-color: #1a1a1a; /* Warna latar belakang */
+}
+
+/* Tautan */
+a {
+  font-weight: 500;
+  color: #646cff; /* Warna tautan */
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2; /* Warna tautan saat dihover */
+}
+
+/* Badan Dokumen */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Judul */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Tombol */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff; /* Warna border tombol saat dihover */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Media Query untuk Mode Terang */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547; /* Warna teks utama dalam mode terang */
+    background-color: #ffffff; /* Warna latar belakang dalam mode terang */
+  }
+  a:hover {
+    color: #747bff; /* Warna tautan saat dihover dalam mode terang */
+  }
+  button {
+    background-color: #f9f9f9; /* Warna latar belakang tombol dalam mode terang */
+    color: #1a1a1a; /* Warna teks tombol dalam mode terang */
+  }
+}
